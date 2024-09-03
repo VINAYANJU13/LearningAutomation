@@ -14,7 +14,7 @@ public class RegisterPage {
 
 	@FindBy(id = "name")
 	private WebElement nametextfield;
-
+	
 	@FindBy(id = "email")
 	private WebElement emailtextfield;
 
@@ -24,6 +24,14 @@ public class RegisterPage {
 	@FindBy(id = "mobile")
 	private WebElement mobiletextfield;
 	
+	@FindBy(id = "feedback")
+	private WebElement feedbacktextfield;
+	
+	
+	public WebElement getFeedbacktextfield() {
+		return feedbacktextfield;
+	}
+
 	public WebElement getNametextfield() {
 		return nametextfield;
 	}

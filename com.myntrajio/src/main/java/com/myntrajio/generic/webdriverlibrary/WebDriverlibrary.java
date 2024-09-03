@@ -9,8 +9,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
-public class WebDriverlibrary {
+import com.myntrajio.generic.commonlibrary.FrameworkConstant;
 
+public class WebDriverlibrary implements FrameworkConstant {
+	
 	public WebDriver driver;
 	public WebDriver static_driver;
 	public Actions action;
@@ -60,11 +62,9 @@ public class WebDriverlibrary {
 
 	/**
 	 * This method waits until element or elements is found
-	 * 
-	 * @param time
 	 */
-	public void waitUntilElementFound(long time) {
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(time));
+	public void waitUntilElementFound() {
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(waitduration));
 	}
 
 	/**

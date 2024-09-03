@@ -22,4 +22,12 @@ public class JavaLibrary {
 		Random random = new Random();
 		return random.nextInt(limit);
 	}
+	public void pause(int i) {
+		try {
+			Thread.sleep(i);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 }

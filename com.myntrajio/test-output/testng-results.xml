@@ -29,26 +29,26 @@
       <![CDATA[Terminate Suiteconnection Done Sucessful]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-08-29T15:42:43 IST" name="FunctionalityTestSuite" finished-at="2024-08-29T15:42:56 IST" duration-ms="13956">
+  <suite started-at="2024-09-03T16:51:06 IST" name="FunctionalityTestSuite" finished-at="2024-09-03T16:51:16 IST" duration-ms="10467">
     <groups>
     </groups>
-    <test started-at="2024-08-29T15:42:43 IST" name="Test" finished-at="2024-08-29T15:42:56 IST" duration-ms="13956">
+    <test started-at="2024-09-03T16:51:06 IST" name="Test" finished-at="2024-09-03T16:51:16 IST" duration-ms="10467">
       <class name="com.myntrajio.RegisterTest.RegisterTest">
-        <test-method is-config="true" signature="getSuiteConnections()[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@46cdf8bd]" started-at="2024-08-29T15:42:42 IST" name="getSuiteConnections" finished-at="2024-08-29T15:42:43 IST" duration-ms="41" status="PASS">
+        <test-method is-config="true" signature="getSuiteConnections()[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@46cdf8bd]" started-at="2024-09-03T16:51:06 IST" name="getSuiteConnections" finished-at="2024-09-03T16:51:06 IST" duration-ms="16" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Get SuiteConnections Done Sucessful]]>
             </line>
           </reporter-output>
         </test-method> <!-- getSuiteConnections -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@46cdf8bd]" started-at="2024-08-29T15:42:43 IST" name="precondition" finished-at="2024-08-29T15:42:43 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@46cdf8bd]" started-at="2024-09-03T16:51:06 IST" name="precondition" finished-at="2024-09-03T16:51:06 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[precondition Done Sucessful]]>
             </line>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method is-config="true" signature="browsersetup(java.lang.String)[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@46cdf8bd]" started-at="2024-08-29T15:42:43 IST" name="browsersetup" finished-at="2024-08-29T15:42:56 IST" duration-ms="12993" status="PASS">
+        <test-method is-config="true" signature="browsersetup(java.lang.String)[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@46cdf8bd]" started-at="2024-09-03T16:51:06 IST" name="browsersetup" finished-at="2024-09-03T16:51:08 IST" duration-ms="2674" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,42 +62,42 @@
             </line>
           </reporter-output>
         </test-method> <!-- browsersetup -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@46cdf8bd]" started-at="2024-08-29T15:42:56 IST" name="login" finished-at="2024-08-29T15:42:56 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@46cdf8bd]" started-at="2024-09-03T16:51:08 IST" name="login" finished-at="2024-09-03T16:51:08 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login Sucessful]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="registerValidData()[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@46cdf8bd]" started-at="2024-08-29T15:42:56 IST" name="registerValidData" finished-at="2024-08-29T15:42:56 IST" duration-ms="813" status="PASS">
+        <test-method signature="registerValidData()[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@46cdf8bd]" started-at="2024-09-03T16:51:08 IST" name="registerValidData" finished-at="2024-09-03T16:51:16 IST" duration-ms="7583" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Register with valid Data Sucess]]>
             </line>
           </reporter-output>
         </test-method> <!-- registerValidData -->
-        <test-method is-config="true" signature="Logout()[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@46cdf8bd]" started-at="2024-08-29T15:42:56 IST" name="Logout" finished-at="2024-08-29T15:42:56 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="Logout()[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@46cdf8bd]" started-at="2024-09-03T16:51:16 IST" name="Logout" finished-at="2024-09-03T16:51:16 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout Sucessful]]>
             </line>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@46cdf8bd]" started-at="2024-08-29T15:42:56 IST" name="closebrowser" finished-at="2024-08-29T15:42:56 IST" duration-ms="70" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@46cdf8bd]" started-at="2024-09-03T16:51:16 IST" name="closebrowser" finished-at="2024-09-03T16:51:16 IST" duration-ms="138" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Close browser sucessfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@46cdf8bd]" started-at="2024-08-29T15:42:56 IST" name="postcondition" finished-at="2024-08-29T15:42:56 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@46cdf8bd]" started-at="2024-09-03T16:51:16 IST" name="postcondition" finished-at="2024-09-03T16:51:16 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[postcondition Done Sucessful]]>
             </line>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="terminateSuiteconnection()[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@46cdf8bd]" started-at="2024-08-29T15:42:57 IST" name="terminateSuiteconnection" finished-at="2024-08-29T15:42:57 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="terminateSuiteconnection()[pri:0, instance:com.myntrajio.RegisterTest.RegisterTest@46cdf8bd]" started-at="2024-09-03T16:51:16 IST" name="terminateSuiteconnection" finished-at="2024-09-03T16:51:16 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Terminate Suiteconnection Done Sucessful]]>
