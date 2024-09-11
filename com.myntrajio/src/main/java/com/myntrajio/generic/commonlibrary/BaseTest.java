@@ -11,6 +11,8 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
+import com.aventstack.extentreports.reporter.configuration.Theme;
+
 public class BaseTest extends ObjectLibrary {
 
 	@BeforeMethod
@@ -27,6 +29,14 @@ public class BaseTest extends ObjectLibrary {
 	@Parameters("browser")
 	@BeforeClass
 	public void browsersetup(String bname) {
+
+		// Create an Test Report
+		test = report.createTest("registerValidData");
+		test = report.createTest("vaildRegisterButtonSize");
+		test = report.createTest("vaildRegisterButtonColor");
+		test = report.createTest("vaildRegisterButtonPostion");
+
+
 
 		// Create Object For All Library
 		createObject();
@@ -56,11 +66,30 @@ public class BaseTest extends ObjectLibrary {
 
 	@BeforeTest
 	public void precondition() {
+		// Create an object for all library
+		createObject();
+
+		// Configure SparkReport Information
+		spark.config().setDocumentTitle("Regression Testing for the RegisterPage");
+		spark.config().setReportName("RegressionSuite");
+		spark.config().setTheme(Theme.DARK);
+
+		// Attach the Spark Report and ExtentReport
+		report.attachReporter(spark);
+
+		// Configure the System Information in Extent Report
+		report.setSystemInfo("DeviceName", "Vinay");
+		report.setSystemInfo("OS", "WINDOWS 11");
+		report.setSystemInfo("Browser", "Chrome");
+		report.setSystemInfo("BrowserVersion", "Chrome -- 128.0.6613.138");
+
 		Reporter.log("precondition Done Sucessful", true);
 	}
 
 	@AfterTest
 	public void postcondition() {
+		// Flush the report information
+		report.flush();
 		Reporter.log("postcondition Done Sucessful", true);
 	}
 

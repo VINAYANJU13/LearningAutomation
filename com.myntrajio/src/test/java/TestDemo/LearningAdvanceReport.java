@@ -16,10 +16,12 @@ public class LearningAdvanceReport {
 		spark.config().setReportName("RegressionSuite");
 		spark.config().setTheme(Theme.DARK);
 
-		// Create tje Spark Report
+		// Create the Spark Report
 		ExtentReports report = new ExtentReports();
+		
 		// Attach the Spark Report and ExtentReport
 		report.attachReporter(spark);
+		
 		// Configure the System information in Extent Report by Attaching
 		report.attachReporter(spark);
 		report.setSystemInfo("DeviceName", "Vinay");

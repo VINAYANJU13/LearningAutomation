@@ -3,6 +3,7 @@
 <suite name="FunctionalityTestSuite">
 	<test thread-count="5" name="Test">
 		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="device" value="Vinay"></parameter>
 		<classes>
 			<class name="com.myntrajio.RegisterTest.RegisterTest" />
 		</classes>

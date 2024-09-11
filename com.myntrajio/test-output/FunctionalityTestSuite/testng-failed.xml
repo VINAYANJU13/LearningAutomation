@@ -3,6 +3,7 @@
 <suite name="Failed suite [FunctionalityTestSuite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
+    <parameter name="device" value="Vinay"/>
     <classes>
       <class name="com.myntrajio.RegisterTest.RegisterTest">
         <methods>
@@ -10,11 +11,11 @@
           <include name="Logout"/>
           <include name="registerValidData"/>
           <include name="getSuiteConnections"/>
+          <include name="browsersetup"/>
           <include name="closebrowser"/>
           <include name="login"/>
-          <include name="browsersetup"/>
-          <include name="precondition"/>
           <include name="postcondition"/>
+          <include name="precondition"/>
         </methods>
       </class> <!-- com.myntrajio.RegisterTest.RegisterTest -->
     </classes>

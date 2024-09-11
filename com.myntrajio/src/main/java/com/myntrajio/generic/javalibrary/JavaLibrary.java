@@ -4,7 +4,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
 
-
 public class JavaLibrary {
 	
 	public String getCurrentTime() {
@@ -22,9 +21,9 @@ public class JavaLibrary {
 		Random random = new Random();
 		return random.nextInt(limit);
 	}
-	public void pause(int i) {
+	public void pause(long time) {
 		try {
-			Thread.sleep(i);
+			Thread.sleep(time);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
